@@ -1,0 +1,57 @@
+{
+  "language": "en",
+  "messages": [
+    {
+      "id": "/Plugins/AzureKinect/Statuses/Success",
+      "translation": "Success!\nS_OK\nEverything's good!"
+    },
+    {
+      "id": "/Plugins/AzureKinect/Statuses/NotAvailable",
+      "translation": "Sensor Unavailable!\nK4A_RESULT_FAILED\nCheck if the Kinect is plugged in to your PC's USB and power plugs."
+    },
+    {
+      "id": "/Plugins/AzureKinect/Interface/Options/Tracking/Select",
+      "translation": "Processing mode:"
+    },
+    {
+      "id": "/Plugins/AzureKinect/Interface/Options/Tracking/0",
+      "translation": "GPU-Handled"
+    },
+    {
+      "id": "/Plugins/AzureKinect/Interface/Options/Tracking/1",
+      "translation": "CPU-Handled"
+    },
+    {
+      "id": "/Plugins/AzureKinect/Interface/Options/Tracking/2",
+      "translation": "Cuda-Handled"
+    },
+    {
+      "id": "/Plugins/AzureKinect/Interface/Options/Tracking/3",
+      "translation": "TensorRT-Handled"
+    },
+    {
+      "id": "/Plugins/AzureKinect/Interface/Options/Tracking/4",
+      "translation": "DirectML-Handled"
+    },
+    {
+      "id": "/Plugins/AzureKinect/Interface/Options/Orientation/Select",
+      "translation": "Orientation:"
+    },
+    {
+      "id": "/Plugins/AzureKinect/Interface/Options/Orientation/0",
+      "translation": "Default"
+    },
+    {
+      "id": "/Plugins/AzureKinect/Interface/Options/Orientation/1",
+      "translation": "90deg CW"
+    },
+    {
+      "id": "/Plugins/AzureKinect/Interface/Options/Orientation/2",
+      "translation": "90deg CCW"
+    },
+    {
+      "id": "/Plugins/AzureKinect/Interface/Options/Orientation/3",
+      "translation": "Flipped (180deg)"
+    },
+  ]
+}

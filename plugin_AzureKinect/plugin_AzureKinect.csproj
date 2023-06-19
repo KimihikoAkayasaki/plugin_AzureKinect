@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
+    <TargetPlatformVersion>10.0.22621.0</TargetPlatformVersion>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <RootNamespace>plugin_AzureKinect</RootNamespace>
+    <RuntimeIdentifiers>win10-x64</RuntimeIdentifiers>
+    <PublishTrimmed>false</PublishTrimmed>
+    <Platforms>x64</Platforms>
+    <UseWinUI>true</UseWinUI>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <EnablePreviewMsixTooling>true</EnablePreviewMsixTooling>
+    <GenerateLibraryLayout>true</GenerateLibraryLayout>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Amethyst.Plugins.Contract" Version="0.2.12" />
+    <PackageReference Include="Microsoft.Azure.Kinect.BodyTracking" Version="1.1.2" />
+    <PackageReference Include="Microsoft.Azure.Kinect.BodyTracking.Dependencies" Version="0.9.1" />
+    <PackageReference Include="Microsoft.Azure.Kinect.BodyTracking.Dependencies.cuDNN" Version="0.9.1" />
+    <PackageReference Include="System.ComponentModel.Composition" Version="8.0.0-preview.3.23174.8" />
+    <PackageReference Include="System.ComponentModel.Composition.Registration" Version="8.0.0-preview.3.23174.8" />
+    <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.3.230502000" />
+    <PackageReference Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.25247-preview" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\**">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+</Project>
