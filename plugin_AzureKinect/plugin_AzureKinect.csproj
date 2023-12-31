@@ -15,7 +15,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Amethyst.Plugins.Contract" Version="0.2.21" />
+    <PackageReference Include="Amethyst.Plugins.Contract" Version="0.2.22" />
     <PackageReference Include="Microsoft.Azure.Kinect.BodyTracking" Version="1.1.2" />
     <PackageReference Include="Microsoft.Azure.Kinect.BodyTracking.Dependencies" Version="0.9.1" />
     <PackageReference Include="Microsoft.Azure.Kinect.BodyTracking.Dependencies.cuDNN" Version="0.9.1" />
