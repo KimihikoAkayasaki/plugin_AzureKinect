@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0.0",
+  "version": "1.0.0.2",
   "display_name": "Azure Kinect",
   "download":  "plugin_AzureKinect.zip",
   "changelog": "Added all plugin solution files.",

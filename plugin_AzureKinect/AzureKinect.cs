@@ -115,7 +115,7 @@ public class AzureKinect : ITrackingDevice
                 Host.RequestLocalizedString("/Plugins/AzureKinect/Interface/Options/Tracking/4")
             },
             HorizontalAlignment = HorizontalAlignment.Stretch,
-            SelectedIndex = Host.PluginSettings.GetSetting("Tracking", 0)
+            SelectedIndex = Host.PluginSettings.GetSetting("Tracking", 4)
         };
 
         OrientationTypeComboBox = new ComboBox
@@ -305,7 +305,7 @@ public class AzureKinect : ITrackingDevice
             // Initialize the tracking service
             BodyTracker = Tracker.Create(KinectDevice.GetCalibration(), new TrackerConfiguration
             {
-                ProcessingMode = (TrackerProcessingMode)Host.PluginSettings.GetSetting("Tracking", 0),
+                ProcessingMode = (TrackerProcessingMode)Host.PluginSettings.GetSetting("Tracking", 4),
                 SensorOrientation = (SensorOrientation)Host.PluginSettings.GetSetting("Orientation", 0)
             });
 
