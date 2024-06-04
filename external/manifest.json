@@ -1,7 +1,7 @@
 {
-  "version": "1.0.0.2",
+  "version": "1.0.0.3",
   "display_name": "Azure Kinect",
   "download":  "plugin_AzureKinect.zip",
-  "changelog": "Added all plugin solution files.",
+  "changelog": "Updated the plugin contract.",
   "guid": "K2VRTEAM-AME2-APII-DVCE-DVCEKINECTAZ"
 }
