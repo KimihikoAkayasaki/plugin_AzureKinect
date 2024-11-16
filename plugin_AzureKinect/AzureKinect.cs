@@ -21,7 +21,7 @@ namespace plugin_AzureKinect;
 [ExportMetadata("Name", "Azure Kinect")]
 [ExportMetadata("Guid", "K2VRTEAM-AME2-APII-DVCE-DVCEKINECTAZ")]
 [ExportMetadata("Publisher", "K2VR Team")]
-[ExportMetadata("Version", "1.0.0.3")]
+[ExportMetadata("Version", "1.0.0.4")]
 [ExportMetadata("Website", "https://github.com/KimihikoAkayasaki/plugin_AzureKinect")]
 public class AzureKinect : ITrackingDevice
 {
